@@ -1,8 +1,7 @@
-## Olá ! Sou Kevin Deselvolvedor Front-end
+## Olá ! Sou Kevin Desenvolvedor Front-end
 
-- 🔭 Hoje Trabalho com Front-end
-- 🌱 Estudando Javascript
-- 😄 Pronouns: ele/dele
+- 🔭 Hoje Trabalho com Front-End
+- 🌱 Estudando Desenvolvimento Web
 <div style="display: inline_block"><br>
   <img align="center" alt="Kevin-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
   <img align="center" alt="Kevin-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
