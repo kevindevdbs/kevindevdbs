@@ -14,7 +14,7 @@
 
 ###
 
-<p align="left">Eu Sou de Belo Horizonte - MG.<br><br>- 🔭 Trabalho com Front-End.<br>- 📚 Atualmente Estudando Desenvolvimento Web.<br>- ⚡ No meu tempo livre gosto de aprender coisas novas e assistir videos de entreterimento.</p>
+<p align="left">Eu Sou de Belo Horizonte - MG.<br><br>- 🔭 Trabalho com Front-End.<br>- 📚 Atualmente Estudando Desenvolvimento Web.<br>- ⚡ No meu tempo livre me dedico aos estudos .</p>
 
 ###
 
