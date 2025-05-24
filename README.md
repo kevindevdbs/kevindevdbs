@@ -14,7 +14,7 @@
 
 ###
 
-<p align="left">Eu Sou de Belo Horizonte - MG.<br><br>- 🔭 Trabalho com Desenvolvimento de Softwares.<br>- 📚 Atualmente Cursando Faculdade de Analise e Desenvolvimento de Sistemas <br>- ⚡ No meu tempo livre me dedico aos estudos .</p>
+<p align="left">Eu Sou de Belo Horizonte - MG.<br><br>- 🔭 Trabalho com Desenvolvimento de Softwares.<br>- 📚 Atualmente Cursando Faculdade de Analise e Desenvolvimento de Sistemas. <br>- ⚡ No meu tempo livre me dedico aos estudos .</p>
 
 ###
 
