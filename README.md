@@ -1,4 +1,4 @@
-<h1 align="center">Olá 👋 , Sou Kevin Desenvolvedor Front-End</h1>
+<h1 align="center">Olá 👋 , Sou Kevin Desenvolvedor Full-Stack</h1>
 
 ###
 
@@ -14,7 +14,7 @@
 
 ###
 
-<p align="left">Eu Sou de Belo Horizonte - MG.<br><br>- 🔭 Trabalho com Front-End.<br>- 📚 Atualmente Estudando Desenvolvimento Web.<br>- ⚡ No meu tempo livre me dedico aos estudos .</p>
+<p align="left">Eu Sou de Belo Horizonte - MG.<br><br>- 🔭 Trabalho com Desenvolvimento de Softwares.<br>- 📚 Atualmente Cursando Faculdade de Analise e Desenvolvimento de Sistemas <br>- ⚡ No meu tempo livre me dedico aos estudos .</p>
 
 ###
 
