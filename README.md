@@ -76,25 +76,38 @@ próxima pessoa consiga ler sem precisar perguntar nada.
 
 ---
 
-## 📌 Projetos em destaque
+## 📌 Projeto em destaque
 
-| Projeto | Sobre | Stack |
-|---|---|---|
-| **[Subscription Manager](https://github.com/kevindevdbs/subscription-manager)** | API de assinaturas recorrentes: contratos, faturamento mensal e ciclo de vida completo até o pagamento, o vencimento ou o cancelamento. Clean Architecture e 251 testes, incluindo integração contra SQL Server real. | `.NET 10` `EF Core` `SQL Server` `Docker` `xUnit` |
-| **[Barber Hub](https://github.com/kevindevdbs/barber-hub)** | Plataforma de gestão para barbearias — agendamentos, equipe, serviços, clientes, portfólio e assinaturas. | `.NET 10` `PostgreSQL` `Next.js` |
-| **[Bella Pizza](https://github.com/kevindevdbs/bella-pizza)** | Sistema de pedidos com cardápio dinâmico, carrinho e fluxo ponta a ponta. | `TypeScript` `Next.js` |
+### [Subscription Manager](https://github.com/kevindevdbs/subscription-manager)
+
+API REST de assinaturas recorrentes: clientes contratam planos, o sistema emite as
+faturas mensais e controla o ciclo de vida de contratos e faturas até o pagamento, o
+vencimento ou o cancelamento.
+
+`.NET 10` · `ASP.NET Core` · `EF Core` · `SQL Server` · `Docker` · `xUnit` · `Testcontainers`
+
+**O que ele mostra:**
+
+- **Entidades ricas, não sacos de propriedade** — todo setter é privado e o estado só
+  muda por método que valida a transição. Não existe caminho para uma fatura paga ser
+  paga de novo.
+- **Erro de negócio vira HTTP em um lugar só** — as exceções carregam o próprio status
+  e um filtro as converte na resposta. Nenhum controller tem `try/catch`.
+- **Regra crítica em duas camadas** — um cliente não assina o mesmo plano duas vezes:
+  a consulta no handler devolve 409 legível, e um índice único filtrado garante a
+  regra quando duas requisições passam ao mesmo tempo.
+- **Teste contra banco de verdade** — a integração sobe um SQL Server descartável em
+  container. Índice único, tipo de coluna e transação são exercitados de verdade, não
+  simulados em memória. São 251 testes no total.
+
+Sobe inteiro com um comando:
+
+```bash
+docker compose up -d --build
+```
 
 > O raciocínio de cada mudança está nas descrições dos pull requests — o que foi
 > entregue, o que foi descartado no caminho e por quê.
-
----
-
-## 📊 GitHub
-
-<p align="left">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=kevindevdbs&show_icons=true&theme=tokyonight&count_private=true&hide_border=true" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kevindevdbs&layout=compact&theme=tokyonight&hide_border=true" />
-</p>
 
 ---
 
