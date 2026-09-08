@@ -7,7 +7,7 @@
 
 <p align="center">
   <a href="https://kevin-portfolio-phi-ten.vercel.app" target="_blank">
-    <img src="https://img.shields.io/badge/Portf%C3%B3lio-kevindias.dev-ff9f1c?style=for-the-badge&logo=vercel&logoColor=white" />
+    <img src="https://img.shields.io/badge/Portf%C3%B3lio-Acessar-ff9f1c?style=for-the-badge&logo=vercel&logoColor=white" />
   </a>
   <a href="https://www.linkedin.com/in/kevin-dias-765729372/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-Kevin%20Dias-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
